@@ -1,3 +1,3 @@
-module github.com/anhk/slicewindow
+module github.com/anhk/go-slicewindow
 
 go 1.16
