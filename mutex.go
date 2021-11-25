@@ -1,5 +1,7 @@
 package slicewindow
 
+// for mutex.Trylock()
+
 import (
 	"sync"
 	"sync/atomic"

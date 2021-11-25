@@ -81,6 +81,7 @@ func (sw *SliceWindow) calculateTimeIdx(now uint64) int {
 	return int(timeId) % sw.sampleCount
 }
 
+// Values Get all Bucket between [current time - leap array interval, current time]
 func (sw *SliceWindow) Values() []*Bucket {
 	return sw.valuesWithTime(CurrentTimeMillsWithTicker())
 }
